@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(img/guinée-drap.png);
+  margin: 0;
+
+}
+.navbar{
+    display: flex;
+    padding: 16px 32px;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(120deg, #A7C957, white );
+}
+.logo img{
+    width: 105px;
+}
+.menu ul{
+    display:flex;
+    gap: 20px;
+    list-style: none;
+}
+.menu ul a{
+    text-decoration: none;
+    color: #8A817C;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.menu ul a:hover{
+  color: #52796F;
+}
+.bottom-primary a{
+    text-decoration: none;
+    border:solid;
+    border-radius: 20px;
+    padding: 15px;
+    width: 150px;
+    background-color: #52796F;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+.bottom-primary a:hover{
+    color: #E6CCB2;
+}
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 5px solid #0000;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+.card {
+  padding: 50px 0  0 0;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 16px;
+}
+
+.button {
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: all .3s ease;
+}
+
+
+.primary {
+  background-color: #8005F2;
+  color: #FFF;
+  border: 2px solid #8005F2;
+  /*
+  background: rgb(181,105,252);
+  background: linear-gradient(90deg, rgba(181,105,252,1) 0%, rgba(128,5,242,1) 36%, rgba(181,105,252,1) 100%);*display: ;*/
+}
+
+.primary:hover {
+  background-color: #B569FC;
+  border: 2px solid #B569FC;
+}
+
+.secondary {
+  background-color: transparent;
+  color: #8005F2;
+  border: 2px solid #8005F2;
+}
+
+.secondary:hover {
+  border: 2px solid #B569FC;
+  color: #B569FC;
+}
+
+.photo {
+  width: 60px;
+  /*  Largeur */
+  height: 60px;
+  /*  Hauteur */
+  border-radius: 50%;
+  border: solid 2px #000;
+}
+
+.link {
+  color: #000;
+  font-weight: 500;
+  transition: all .3s ease;
+}
+
+.link:hover {
+  color: #8005F2;
+}
+
+.box {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.player-link {
+  width: fit-content;
+}
+.card{
+  background:  red;
+  color: white;
+  border-radius: 32px;
+  width: 20vw;
+  max-width: 20vw;
+  min-width: 10vw;
+  height: 20vw;
+  min-height: 10vw;
+  max-height: 20vw;
+
+  transition: all .6s ease;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 16px;
+  -webkit-box-shadow: -4px 4px 28px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: -4px 4px 28px 0px rgba(66, 68, 90, 1);
+  box-shadow: -4px 4px 28px 0px rgba(66, 68, 90, 1);
+}
+.card img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.sily{
+  background-image: url('img/photo svg.jpg');
+  background-size: cover;
+}
+  .esaispas{
+  background:#FFF
+  width: 150vh
+  height: auto;
+  display: flex;
+}
+.card i{
+  font-size: 6vw;
+  line-height: 6vw; /* Interlignage */
+}
+
+.card:hover{
+  transform: scale(.9);
+}
+
+#joueurs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+#equipe .text-center {
+  text-align: center;
+}
+
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+ 
+  
+ 
+  background-image: url("https://upload.wikimedia.org/wikipedia/el/0/05/Logo_Feguifoot.png");
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero h1{
+  font-size: 5vw;
+  margin: 0;
+}
+
+.hero h2{
+  font-size: 100px;
+  font-weight: 400;
+  margin: 0;
+  color: rgba(255, 0, 0, 0.831);
+  border: 5px solid #0b0a0a44;
+  padding: 10px;
+}
+
+
