@@ -5,9 +5,10 @@ body {
   display: flex;
   font-family: 'Poppins', sans-serif;
   background-image: url(img/guinée-drap.png);
-
+margin: 0;
 }
 .navbar{
+  width: 90%;
     display: flex;
     padding: 16px 32px;
     align-items: center;
