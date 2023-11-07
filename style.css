@@ -2,9 +2,9 @@
 
 html,
 body {
+  display: flex;
   font-family: 'Poppins', sans-serif;
   background-image: url(img/guinée-drap.png);
-  margin: 0;
 
 }
 .navbar{
@@ -44,7 +44,7 @@ body {
 .bottom-primary a:hover{
     color: #E6CCB2;
 }
-}
+
 
 body {
   display: flex;
@@ -170,9 +170,9 @@ a {
   background-image: url('img/photo svg.jpg');
   background-size: cover;
 }
-  .esaispas{
-  background:#FFF
-  width: 150vh
+.esaispas{
+  background:#FFF;
+  width: 150vh;
   height: auto;
   display: flex;
 }
@@ -229,3 +229,9 @@ a {
 }
 
 
+  footer{
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+
+}
